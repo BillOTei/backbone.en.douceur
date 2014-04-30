@@ -69,7 +69,7 @@ Nous pouvons maintenant créer notre routeur. La propriété importante du route
 - `hello`, qui appellera la méthode `hello` si par exemple on saisit `http://localhost:3000/#hello` dans la barre d’url du navigateur (notez le “#”, nous y reviendrons plus tard)
 - et enfin `*path` qui appellera la méthode `root` pour toute autre url comme `#/`, `/`…
 
-Le code qui sert à récupérer la liste des posts en provenance du serveur est déplacé dans la méthode `root` du routeur. Cependant, une des bonnes pratiques de backbone indique qu'il est préférable de ne pas exécuter de requêtes supplémentaire au chargement de l'app et donc de "bootstrapper" les premières données nécessaires dans un DOM de la page dans un objet JSON.
+Le code qui sert à récupérer la liste des posts en provenance du serveur est déplacé dans la méthode `root` du routeur. Cependant, une des bonnes pratiques de backbone indique qu'il est préférable de ne pas exécuter de requêtes supplémentaire au chargement de l'app et donc de "bootstrapper" les premières données nécessaires dans un DOM de la page dans un objet JSON. (...........................)
 
 *Le routeur de notre application de blog :*
 
